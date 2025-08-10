@@ -1,3 +1,3 @@
 var os = require("os");
-var hostname = SourceBuffer.hostname();
+var hostname = os.hostname();
 console.log ("Hello Arii"+hostname);
