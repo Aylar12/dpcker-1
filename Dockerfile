@@ -1,5 +1,5 @@
-FROM figlet
-RUN apk update && apk add nodejs
+FROM alpine
+RUN apk update && apk add nodejs && --no-cache figlet
 COPY . /app
 WORKDIR /app
-CMD [ "node","nodex.js" ]
+CMD [ "node","nodex.js","figlet"]
