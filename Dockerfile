@@ -1,4 +1,4 @@
-FROM alpine
+FROM figlet
 RUN apk update && apk add nodejs
 COPY . /app
 WORKDIR /app
