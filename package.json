@@ -1,0 +1,7 @@
+{
+  "name": "figlet-demo",
+  "version": "1.0.0",
+  "dependencies": {
+    "figlet": "^1.6.0"
+  }
+}
