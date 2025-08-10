@@ -1,3 +1,3 @@
-var os = require("os");
-var hostname = os.hostname();
-console.log ("Hello Arii"+hostname);
+// var os = require("os");
+// var hostname = os.hostname();
+console.log ("Hello Arii");
