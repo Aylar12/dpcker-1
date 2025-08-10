@@ -1,8 +1,8 @@
 const figlet = require("figlet");
 
-figlet("hello", function(err, data) {
+figlet("hello Arii", function(err, data) {
     if (err) {
-        console.log("خطا در اجرای figlet");
+        console.log("error figlet");
         console.dir(err);
         return;
     }
