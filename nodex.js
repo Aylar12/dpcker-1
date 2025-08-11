@@ -4,7 +4,7 @@ const figlet = require("figlet");
 const PORT = 3000;
 
 http.createServer((req, res) => {
-    figlet("hello :) ", function(err, data) {
+    figlet("hello : ) ", function(err, data) {
         if (err) {
             res.writeHead(500, { "Content-Type": "text/plain" });
             res.end("Error generating figlet");
