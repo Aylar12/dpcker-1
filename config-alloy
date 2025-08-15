@@ -1,7 +1,7 @@
 
 server:
   listen_address: "0.0.0.0"
-  listen_port: 8080
+  listen_port: 12345
 
 prometheus:
   scrape_interval: 15s
