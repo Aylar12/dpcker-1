@@ -1,0 +1,18 @@
+
+server:
+  listen_address: "0.0.0.0"
+  listen_port: 8080
+
+prometheus:
+  scrape_interval: 15s
+  scrape_timeout: 10s
+  targets:
+    - "prometheus:9090"
+
+logging:
+  level: info
+  format: json
+
+metrics:
+  enabled: true
+  path: /metrics
